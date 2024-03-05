@@ -1,0 +1,184 @@
+﻿<Page x:Class="course_project.Views.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:course_project.Views"
+      mc:Ignorable="d" d:DesignWidth="1160"
+      Height="850" Loaded="Page_Loaded">
+
+    <Grid Width="1160" Background="#FF312F2F" Margin="0,0,0,-687.4">
+        <ScrollViewer Margin="0,0,0,-3">
+            <StackPanel Height="2466">
+            <Image Height="320" Width="1160" VerticalAlignment="Top" Source="/Images/MyCollages.jpg"/>
+            <WrapPanel Height="220" Orientation="Horizontal">
+                <StackPanel Width="360" Height="80" Background="#FF5C5252" HorizontalAlignment="Left" Margin="20,20,0,0" Orientation="Horizontal">
+                        <Image x:Name="firstimage" Width="80" Height="80" HorizontalAlignment="Left" Source="images/image.png" ></Image>
+                    <TextBlock x:Name="firstname" Text="Name_Of_Track" VerticalAlignment="Center" FontSize="22" Margin="12,28,0,28" Width="179"></TextBlock>
+                    <Image Source="/Images/player.png" Width="56" Height="56" Margin="12,0,0,0"/>
+                </StackPanel>
+                <StackPanel Width="360" Height="80" Background="#FF5C5252" HorizontalAlignment="Left" Margin="18,20,0,0" Orientation="Horizontal">
+                        <Image x:Name="secondimage" Width="80" Height="80" HorizontalAlignment="Left" Source="/images/image.png" ></Image>
+                    <TextBlock x:Name="secondname" Text="Name_Of_Track" VerticalAlignment="Center" FontSize="22" Margin="12,28,0,28" Width="179"></TextBlock>
+                        <Image Source="/images/player.png" Width="56" Height="56" Margin="12,0,0,0"/>
+                </StackPanel>
+                <StackPanel Width="360" Height="80" Background="#FF5C5252" HorizontalAlignment="Left" Margin="18,20,0,0" Orientation="Horizontal">
+                        <Image x:Name="thirdimage" Width="80" Height="80" HorizontalAlignment="Left" Source="/images/image.png" ></Image>
+                    <TextBlock x:Name="thirdname" Text="Name_Of_Track" VerticalAlignment="Center" FontSize="22" Margin="12,28,0,28" Width="179"></TextBlock>
+                        <Image Source="/images/player.png" Width="56" Height="56" Margin="12,0,0,0"/>
+                </StackPanel>
+                <StackPanel Width="360" Height="80" Background="#FF5C5252" HorizontalAlignment="Left" Margin="18,20,0,0" Orientation="Horizontal">
+                        <Image x:Name="fourthimage" Width="80" Height="80" HorizontalAlignment="Left" Source="images/image.png" ></Image>
+                    <TextBlock x:Name="fourthname" Text="Name_Of_Track" VerticalAlignment="Center" FontSize="22" Margin="12,28,0,28" Width="179"></TextBlock>
+                        <Image Source="/images/player.png" Width="56" Height="56" Margin="12,0,0,0"/>
+                </StackPanel>
+                <StackPanel Width="360" Height="80" Background="#FF5C5252" HorizontalAlignment="Left" Margin="18,20,0,0" Orientation="Horizontal">
+                        <Image x:Name="fifthimage" Width="80" Height="80" HorizontalAlignment="Left" Source="/images/image.png" ></Image>
+                    <TextBlock x:Name="fifthname" Text="Name_Of_Track" VerticalAlignment="Center" FontSize="22" Margin="12,28,0,28" Width="179"></TextBlock>
+                        <Image Source="/images/player.png" Width="56" Height="56" Margin="12,0,0,0"/>
+                </StackPanel>
+            </WrapPanel>
+            <TextBlock x:Name="forusertextbox" Text="Только для тебя, NAMEUSER" Margin="20,0,0,0" FontSize="26" Foreground="White" FontFamily="Book Antiqua"></TextBlock>
+            <StackPanel Orientation="Horizontal" Width="1160" Height="280">
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="20,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:Name="image1" Source="/Images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/Images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock x:Name="filtrartist1"  Text="Name_Miks" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock x:Name="filtrtrack1" Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:Name="filtrimage2" Source="/images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock x:Name="artistfiltr2" Text="Name_Miks" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock x:Name="filtrtrack2" Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:Name="filtrimage3" Source="/images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock x:Name="filtrartist3" Text="Name_Miks" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock x:Name="filtrtrack3" Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                    <StackPanel  Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:Name="filtrimage4" Source="/images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock x:Name="filtrartist4" Text="Name_Miks" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock x:Name="filtrtrack4" Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image x:Name="filtrimage5" Source="/images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock x:Name="filtrarist5" Text="Name_Miks" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock x:Name="filtrtrack5" Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                
+            </StackPanel>
+                <TextBlock Text="Рекомендуемые станции" Margin="20,0,0,0" FontSize="26" Foreground="White" FontFamily="Book Antiqua"></TextBlock>
+                <StackPanel Orientation="Horizontal" Width="1160" Height="280">
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="20,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="Name_Album" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="Name_Album" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="Name_Album" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                    <StackPanel  Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="Name_Album" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/images/image.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-64,60,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="Name_Album" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White"/>
+                        <TextBlock Text="track,track,track,tracktrack,track,track,track" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <TextBlock Text="Популярное" Margin="20,0,0,0" FontSize="26" Foreground="White" FontFamily="Book Antiqua"></TextBlock>
+                <StackPanel Orientation="Horizontal" Width="1160" Height="280">
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="20,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="отпускай.jpg" Width="144" Height="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-54,80,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="Три дня дождя" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White" Margin="0,20,0,0"/>
+                        <TextBlock Text="Отпускай" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="вода.jpg" Width="144" Height="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-54,80,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="Три дня дождя" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White" Margin="0,20,0,0"/>
+                        <TextBlock Text="Где ты" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="привычка.jpg" Width="144" Height="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-54,80,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="ФОГЕЛЬ" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White" Margin="0,20,0,0"/>
+                        <TextBlock Text="Привычка" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                    <StackPanel  Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="секрет.jpg" Width="144" Height="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-54,80,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="The Limba" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White" Margin="0,20,0,0"/>
+                        <TextBlock Text="Секрет" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+
+                    </StackPanel>
+                    <StackPanel Background="#FF2B2C2C" Height="260" Width="200" Margin="28,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="thinkinaboutit.png" Width="144" Margin="20,10,20,0"></Image>
+                            <Image Source="/images/player.png" Margin="-54,80,10,0"></Image>
+                        </StackPanel>
+                        <TextBlock Text="Nathan Goshen" FontSize="26" HorizontalAlignment="Center" FontFamily="Rockwell" Foreground="White" Margin="0,20,0,0"/>
+                        <TextBlock Text="Thinking About It" FontSize="18" HorizontalAlignment="Center" Height="48" Margin="16,8,16,0" TextWrapping="Wrap" Foreground="DarkGray"></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

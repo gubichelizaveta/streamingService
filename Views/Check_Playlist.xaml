@@ -1,0 +1,25 @@
+﻿<Window x:Class="course_project.Views.Check_Playlist"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:course_project.Views"
+        mc:Ignorable="d"
+        Title="Check_Playlist" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid Background="#FF312F2F">
+        <DataGrid x:Name="checkdatagrid" AutoGenerateColumns="False" Width="800">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="" Width="64">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Image}"></Image>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding Track_Name}" Header="Название" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Artist}" Header="Исполнитель" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Album_Name}" Header="Название альбома" Width="120*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,156 @@
+﻿<Page x:Class="course_project.Views.FiltrPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:course_project.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="850" d:DesignWidth="1160"
+      Title="FiltrPage" Loaded="Page_Loaded">
+
+    <Grid Background="#FF312F2F">
+        <WrapPanel Name="MainWrap">
+            <StackPanel Margin="100,30,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                    <ImageBrush ImageSource="три-дня-дождя.png"></ImageBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+                <CheckBox Content="Три дня дождя" x:Name="threeday" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="80,30,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="panicatthedisco.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="Panic!At The Disco" x:Name="panicatthedisco" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="80,30,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="tomwalker.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="Tom Walker" x:Name="tomwalker" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White">
+                </CheckBox>
+            </StackPanel>
+            <StackPanel Margin="80,30,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="monatikmusic.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="MONATIK" x:Name="monatik" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="80,30,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="fogel.png"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="ФОГЕЛЬ" x:Name="fogel"  Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="100,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="thelimba.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="The Limba" x:Name="thelimba"  Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="85,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="hollyflame.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="HOLLYFLAME" x:Name="hollyflame" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="80,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="jony.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="JONY" x:Name="jony" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="85,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="chaseatlantic.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="Chase Atlantic" x:Name="chaseatlantic" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="85,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="krid.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="Егор Крид" x:Name="krid" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="100,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="алинаселях.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="Алина Селях" x:Name="alinaselyah" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="85,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="marygu.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="Mary Gu" x:Name="marygu" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="75,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="краймбрери.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="Мари Краймбрери" x:Name="kraimbreri" Margin="0,10,0,0" HorizontalAlignment="Center" Background="White" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="70,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="zivert.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="ZIVERT" x:Name="zivert"  Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            <StackPanel Margin="85,50,0,0">
+                <Ellipse Width="120" Height="120">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="sqwozbab.jpg"></ImageBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <CheckBox Content="SQWOZ BAB" x:Name="sqwozbab" Margin="0,10,0,0" HorizontalAlignment="Center" Foreground="White"></CheckBox>
+            </StackPanel>
+            
+        </WrapPanel>
+        <Button x:Name="submitbutton" Content="Подтвердить" Width="200" Height="30" Margin="0,420,0,0" Click="submitbutton_Click"></Button>
+        <Line  Stroke="AliceBlue" X1="30" Y1="650" X2="1120" Y2="650"></Line>
+        <WrapPanel x:Name="wrap" Background="#FF312F2F" Width="1160" Height="100" Margin="0,620,0,30.6">
+            <Ellipse Fill="AliceBlue"  Width="48" Height="48" Margin="75,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+            <Ellipse Fill="AliceBlue" Width="48" Height="48" Margin="20,20,0,0"></Ellipse>
+        </WrapPanel>
+    </Grid>
+</Page>
